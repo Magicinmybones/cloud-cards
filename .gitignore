@@ -1,0 +1,17 @@
+node_modules/
+.wrangler/
+.dev.vars
+.dev.vars.*
+.env
+.env.*
+!.env.example
+dist/
+.cache/
+coverage/
+*.log
+*.tmp
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
