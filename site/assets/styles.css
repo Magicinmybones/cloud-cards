@@ -125,10 +125,3 @@ body {
   .card { position: relative; left: auto !important; top: auto !important; flex: none; scroll-snap-align: center; }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .card { animation: rise .7s cubic-bezier(.2,.7,.2,1) both; }
-  .card--2 { animation-delay: .06s; }
-  .card--3 { animation-delay: .12s; }
-  @keyframes rise { from { opacity: 0; translate: 0 calc(14 * var(--u)); } to { opacity: 1; translate: 0 0; } }
-}
-html.static .card { animation: none !important; }
